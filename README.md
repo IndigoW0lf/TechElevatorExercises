@@ -9,7 +9,7 @@
 
 
 
-### Weeks 1-4: Intro to Java Programming.
+### Weeks 1-4: Intro to Java Programming
 -----------------------------------------
 
 **Java language topics covered include:**
@@ -23,7 +23,7 @@
 - Version control
 
 
-### Weeks 5-8: Client-Server Prgramming in Java.
+### Weeks 5-8: Client-Server Prgramming in Java
 ------------------------------------------------
 
 **An introduction to data persistence using relational database
@@ -40,7 +40,7 @@ RESTful web services. Topics covered include:**
 - Dependency Injection
 
 
-### Weeks 9-12: Clientn Side Web Programming
+### Weeks 9-12: Client Side Web Programming
 --------------------------------------------
 
 **An introduction to writing web application interfaces using
