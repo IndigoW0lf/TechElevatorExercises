@@ -1,0 +1,111 @@
+body {
+  background-color: black;
+  color: ghostwhite;
+  font-family: "Inter", sans-serif;
+  font-size: large;
+  padding: 30px;
+}
+
+/* Class and headers settings */
+h1 {
+  font-family: "Megrim", cursive;
+  font-size: 80px;
+  text-align: center;
+  margin-top: auto;
+}
+
+h2 {
+  font-family: "Megrim", cursive;
+  text-decoration: underline;
+}
+
+footer {
+  font-family: "Megrim", cursive;
+  font-size: 15px;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+.About {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+/* Image  settings */
+img {
+  display: block;
+  max-width: 400px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+  padding: 30px;
+}
+
+/* Table settings */
+td,
+th {
+  border-left: solid #c5c29a 1px;
+  border-top: solid #c5c29a 1px;
+  padding: 10px;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: black;
+}
+
+td:first-child,
+th:first-child {
+  border-left: none;
+}
+
+th[scope="col"] {
+  background-color: #5c5b49;
+  color: #fff;
+  border-top: none;
+}
+
+th[scope="row"] {
+  background-color: #5c5b49;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+}
+
+table {
+  border-collapse: separate;
+  border: solid #c5c29a 2px;
+  border-spacing: 0px;
+  letter-spacing: 1px;
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+  border-radius: 6px;
+}
+
+/* Link Settings */
+/* unvisited link */
+a:link {
+  color: #c5c29a;
+}
+
+/* visited link */
+a:visited {
+  color: #c5c29a;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: #c5c29a;
+}

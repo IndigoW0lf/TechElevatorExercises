@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleform.css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+        </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styleform.css"/>
+    <title>Nahko Bear Fan Club Signup</title>
+</head>
+<body>
+    <header>
+        <h1>Nahko Bear Fan Club Signup Form</h1>
+    </header>
+    
+    <main>
+        
+        <form action="http://localhost:3000/api/users/login" method="POST">
+            <img src="img/Nahko2.jpg" alt="Nahko And Medicine For The People " />
+            <label for="name">Name:</label>
+            <input id="name" name="name" type="text" required/>
+            <br /><br />
+
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email" required/>
+            <br /><br />
+
+            <label for="date-of-birth">Date of Birth:</label>
+            <input id="date-of-birth" name="date-of-birth" type="date" />
+            <br /><br />
+
+            <label for="favorite-color">Favorite Color:</label>
+            <input id="favorite-color" name="favorite-color" type="color" />
+            <br /><br />
+
+            <label for="lucky-number">Lucky Number:</label>
+            <input id="lucky-number" name="lucky-number" type="number" />
+            <br /><br />
+
+            <label for="confirmation">Confirm Data is Correct:</label>
+            <input id="confirmation" name="confirmation" type="checkbox" />
+            <br /><br />
+
+            <label for="form">Submit!</label>
+            <input id="submit" name="submit" type="submit"/>
+            <br /><br />
+        </form>
+    </main>    
+    
+</body>
+</html>
